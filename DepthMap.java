@@ -1,7 +1,8 @@
-/**
- * Convert any number of images to a gray scale version by setting all color components of each pixel to the same value.
+/** Creates a depth map in Rhinoceros 5 by reading the pixels in an 
+ *  image file and creating curves on the x and y axes that map the 
+ *  luminance of the pixel to the z axis.
  * 
- * @author Duke Software Team 
+ * @author Greg King
  */
 import edu.duke.*;
 import java.io.*;
